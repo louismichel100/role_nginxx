@@ -10,7 +10,7 @@
     - install-epel
 
 - name: Install firewalld
-  ansible.builtin. yum:
+  ansible.builtin.yum:
     name: firewalld
     update_cache: true
     state: present
