@@ -39,7 +39,7 @@
 
 - name: Firewalld | allow incoming HTTP connections
   become: true
-  absible.posix.firewalld:
+  ansible.posix.firewalld:
     service: http
     permanent: true
     immediate: true
