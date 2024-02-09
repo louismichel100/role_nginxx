@@ -1,4 +1,4 @@
-[![CI](https://github.com/louismichel100/role_nginxx/workflows/CI/badge.svg?event=push)](https://github.com/louismichel100/role_nginxx/actions?query=workflow%3ACI)
+[![CI](https://github.com/louismichel100/role_nginxx/actions/workflows/cii.yml/badge.svg)](https://github.com/louismichel100/role_nginxx/actions/workflows/cii.yml)
 
 Role Name
 =========
