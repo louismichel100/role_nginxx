@@ -1,3 +1,5 @@
+[![CI](https://github.com/louismichel100/role_nginxx/actions/workflows/cii.yml/badge.svg)](https://github.com/louismichel100/role_nginxx/actions/workflows/cii.yml)
+
 Role Name
 =========
 
