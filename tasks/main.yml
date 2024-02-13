@@ -122,6 +122,20 @@
     name: nginx 
     state: started
     enabled: true
-  notify: Check HTTP Service
+  notify: Check HTTP Service Centos
   tags:
     - always
+  when: ansible_facts['os_family'] == "RedHat"
+
+
+- name: Ensure nginx Restart nginx
+  become: true
+  ansible.builtin.service:
+    name: nginx
+    state: started
+    enabled: true
+  notify: Check HTTP Service Debian
+  tags:
+    - always
+  when: ansible_facts['os_family'] == "Debian"
+
