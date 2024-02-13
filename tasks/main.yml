@@ -148,5 +148,5 @@
   notify: Check HTTP Service Centos
   tags:
     - always
-  when: ansible_facts['os_family'] == "Debian"
+  when: ansible_facts['os_family'] == "RedHat"
 
